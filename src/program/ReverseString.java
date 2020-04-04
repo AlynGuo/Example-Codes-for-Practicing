@@ -6,7 +6,7 @@
 package program;
 
 /**
- *
+ * ctto BeginnersBook.com
  * @author Lenovo
  */
 public class ReverseString {
@@ -42,7 +42,7 @@ public class ReverseString {
     public static void main(String[]args){
         
         ReverseString obj = new ReverseString();
-        obj.reverseWordInMyString("Welcome to BeginnersBook");
-        obj.reverseWordInMyString("This is an easy Java Program");
+        obj.reverseWordInMyString("Java is kind of hard to understand.");
+        obj.reverseWordInMyString("I am first year BSIT college student");
     }
 }
