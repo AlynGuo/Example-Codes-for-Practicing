@@ -1,4 +1,5 @@
-package com.javasample.practice;
+package com.file;
+
 import java.io.*;
 
 class Emp implements Serializable{
@@ -66,7 +67,7 @@ public class SerialExample{
                                     "Data after Deserialization");
                  printData(obj);
                  
-                 //System.out.println("z = "+ obj1.z);
+                 System.out.println("mine.text");
              }catch(IOException ex){
                   System.out.println("IOException is caught.");
              }
